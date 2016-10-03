@@ -13,7 +13,9 @@ export default class Menu extends Component {
               {this.props.items.map((items, i) => (
                 <Items
                   key={i}
-                  items={name} />)
+                  name={items.name}
+                  price={items.price}
+                   />)
               )}
             </div>
             )
