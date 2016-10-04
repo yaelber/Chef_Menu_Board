@@ -1,6 +1,6 @@
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
 
-import Message from '../Items/Items';
+import Items from '../Items/Items';
 
 export default class Menu extends Component {
   constructor(props) {
