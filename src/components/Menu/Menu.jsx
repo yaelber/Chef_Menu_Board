@@ -10,13 +10,17 @@ export default class Menu extends Component {
   render() {
     return (
             <div className="Menu_Board">
+            <ul>
               {this.props.items.map((items, i) => (
+                <li>
                 <Items
                   key={i}
                   name={items.name}
                   price={items.price}
-                   />)
+                   />
+                   </li>)
               )}
+            </ul>
             </div>
             )
   }
